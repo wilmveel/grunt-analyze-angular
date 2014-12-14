@@ -1,6 +1,6 @@
 {
   "name": "grunt-analyze-angular",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/wilmveel/grunt-analyze-angular",
   "description": "Grunt task that analyze your angular code.",
   "main": "gruntfile.js",

@@ -1,6 +1,6 @@
 
 module.exports = function (grunt) {
-	grunt.registerMultiTask('analyze', 'Analyze javascript', function() {
+	grunt.registerMultiTask('analyzeng', 'Analyze javascript', function() {
 
 		var options = this.options({
 			probes: ['global', 'size', 'angular']
