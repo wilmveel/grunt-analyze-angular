@@ -1,16 +1,32 @@
 {
-  "name": "grunt-analyze-global",
+  "name": "grunt-analyze-angular",
   "version": "0.0.1",
-  "description": "Grunt task that analyze your javascript and ckecks on usages of global variables",
-  "main": "tasks/analyze.js",
+  "homepage": "https://github.com/wilmveel/grunt-analyze-angular",
+  "description": "Grunt task that analyze your angular code.",
+  "main": "gruntfile.js",
+  "author": {
+    "name": "Willem Veelenturf",
+    "url": "http://willemveelenturf.nl/"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wilmveel/grunt-analyze-global.git"
+    "url": "git://github.com/wilmveel/grunt-analyze-angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wilmveel/grunt-analyze-angular/issues"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "phantomjs": "1.9.12"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
-    "phantomjs": "~1.9.12",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-contrib-nodeunit": "0.4.1",
+    "grunt": "0.4.5"
+  },
+  "peerDependencies": {
     "grunt": "~0.4.0"
   }
 }
