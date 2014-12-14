@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+  
+  <testsuite name="analyze_size_test.js"
+             errors="1"
+             failures="0"
+             tests="1">
+    
+      
+      <testcase name="size - main">
+        
+          <failure message="Expected 1 assertions, 0 ran">
+            Error: Expected 1 assertions, 0 ran
+    at Object.test.done (D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\lib\types.js:121:25)
+    at Object.exports.runTest (D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\lib\core.js:73:14)
+    at D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\lib\core.js:118:25
+    at D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\deps\async.js:513:13
+    at iterate (D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\deps\async.js:123:13)
+    at async.forEachSeries (D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\deps\async.js:139:9)
+    at _concat (D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\deps\async.js:512:9)
+    at Object.concatSeries (D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\deps\async.js:152:23)
+    at Object.exports.runSuite (D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\lib\core.js:96:11)
+    at D:\projects\grunt-analyze-angular\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\lib\core.js:125:21
+          </failure>
+        
+      </testcase>
+    
+  </testsuite>
+

@@ -1,7 +1,7 @@
-var fs = require('fs')
-var path = require('path')
-var childProcess = require('child_process')
-var phantomjs = require('phantomjs')
+var fs = require('fs');
+var path = require('path');
+var childProcess = require('child_process');
+var phantomjs = require('phantomjs');
 
 module.exports = function (grunt) {
 
@@ -30,7 +30,7 @@ module.exports = function (grunt) {
 		  if(err){
 		  	grunt.log.errorln("Error", stdout);
 		  }else{
-			json = JSON.parse(stdout);
+			var json = JSON.parse(stdout);
 		  	grunt.verbose.writeln(JSON.stringify(json, null, 4));
 		  	grunt.file.write("analyze/global.json", JSON.stringify(json, null, 4));
 		  }
@@ -39,4 +39,4 @@ module.exports = function (grunt) {
 		});
 
 	});
-}
+};
